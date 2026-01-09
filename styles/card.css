@@ -7,27 +7,23 @@ body{
     text-align: center;
 }
 
-.card-section h1{
-    padding-top: ;
-    font-size: ;
-}
+
 .card-container{
     width: 85%;
     max-width: 1360;
     margin: 0 auto;
-    padding:;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:;
+    gap:24px;
 }
 .card{
-width:;
-height:;
-padding:;
-border: ;
-border-radius: ;
-box-shadow: ;
+width:322px;
+height:300px;
+padding:50px 24px;
+border:2px solid rgba(247, 246, 242, 1) ;
+border-radius:8px ;
+box-shadow:8px -8px 8px rgba(0, 0, 0, 0.06);
 
 }
 
@@ -41,6 +37,24 @@ box-shadow: ;
 
 
 .card h3{
-    font-size: ;
-    font-weight: ;
+    font-size: 24px;
+    font-weight: 600;
+}
+.cardheader{
+    padding-top: 54px;
+    padding-bottom: 44px;
+}
+.card p{padding-top: 15px;
+    font-size: 14px;
+    color: gray;
+}
+
+.cardheader p{
+    padding-top: 10px;
+    color: gray;
+}
+
+.cardheader h1{
+    font-size: 48px;
+    font-weight: 700;
 }

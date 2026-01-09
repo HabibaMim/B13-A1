@@ -1,6 +1,5 @@
 #ready{
-padding-bottom: 120px;
-}
+padding: 0px 120px 120px 120px;}
 
 #btn3{
     border: none;
@@ -11,13 +10,14 @@ padding-bottom: 120px;
     font-size: 16px;
     font-weight:600;
     box-shadow: none;
+    margin: 17px 0px;
 }
 #btn3:hover{
     background-color: darkgreen;
 }
 
 .readycon{
-    width: 85%;
+    width: 100%;
     max-width: 1360px;
     margin: 0 auto;
     text-align: center;
@@ -25,14 +25,18 @@ padding-bottom: 120px;
     padding: 80px 40px;
     border-radius: 12px;
 }
+
 #lll , #yyy {
     color:grey; font-size: 16px;
 }
 #lll {display: flex;
 justify-content: center;
-gap:25px}
+gap:27px}
 
 #lll ul li{
-    flex: 1 auto;
-list-style: disc;
+     list-style: disc;
+
+}
+#rrr{
+    font-size: 40px; font-weight: 700; margin-bottom: 17px;
 }
