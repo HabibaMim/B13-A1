@@ -9,16 +9,16 @@ box-sizing: border-box;
   font-optical-sizing: auto;
   
 }
-ul{
+.ul{
     display: flex;
     justify-content: center;
     text-align: center;
     gap: 32px;
 }
-ul li{
+.ul li{
     list-style: none;
 }
-ul li a{
+.ul li a{
     text-decoration: none;
     color: black;
     font-weight: 500;
