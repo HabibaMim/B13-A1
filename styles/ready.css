@@ -32,7 +32,7 @@ padding-bottom: 120px;
 }
 #lll {display: flex;
 justify-content: center;
-gap:27px}
+gap:8px;}
 
 #lll ul li{
      list-style: disc;

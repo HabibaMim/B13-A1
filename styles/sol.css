@@ -37,3 +37,40 @@
 .slist{
     padding-top: 40px;
 }
+
+footer{
+    background-color: #001931;
+    padding: 30px 0px;
+}
+#logosocial{
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 120px 80px 0px;
+}
+.ftrdiv{
+    width: 85%;
+    max-width: 1360;
+    margin: 0 auto;
+}
+#st {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.icons a{
+    border: none;
+    background-color: white;
+    border-radius: 100%;
+    padding: 1px;
+    margin-right: 12px;
+}
+
+#credit{
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    border-top: 1px solid grey;
+    padding-top: 30px;
+}
