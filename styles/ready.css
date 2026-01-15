@@ -1,0 +1,43 @@
+#ready{
+padding: 0 120px 120px 120px;
+}
+
+#btn3{
+    border: none;
+    color: white;
+    background-color:#30B868;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight:600;
+    box-shadow: none;
+    margin: 17px 0px;
+}
+#btn3:hover{
+    background-color: darkgreen;
+}
+
+.readycon{
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    background-color:rgba(247, 246, 242, 1) ;
+    padding: 80px 40px;
+    border-radius: 12px;
+}
+
+#lll , #yyy {
+    color:grey; font-size: 16px;
+}
+#lll {display: flex;
+justify-content: center;
+gap:8px;}
+
+#lll ul li{
+     list-style: disc;
+
+}
+#rrr{
+    font-size: 40px; font-weight: 700; margin-bottom: 17px;
+}

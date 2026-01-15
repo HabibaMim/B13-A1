@@ -1,0 +1,68 @@
+#banner{
+    background-image: 
+    linear-gradient(rgba(0, 25, 49, 0.8)),
+    url('./images/note-taking-strategies.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top:114px;
+    padding-bottom:180px;
+    max-height: 674px;
+}
+#top {
+    color: #30B868;
+    border: none;
+    font-size: 16px;
+    font-weight: 500px;
+    border-radius: 1000px;
+    border-width: 230px;
+    padding: 8px 12px;
+    text-align: center;
+background-color: white;
+}
+
+.big {
+    font-weight: 600px;
+    font-size: 68px;
+}
+
+#btn1{
+    border: none;
+    color: white;
+    background-color:#30B868;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight:600;
+    box-shadow: none;
+}
+
+#btn2{border: 1px solid white;
+    color: white;
+    background:transparent;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight:600;
+    box-shadow: none;}
+
+.btn:hover{ background-color: darkgreen;}
+#top:hover{background-color: black;}   
+#btn2:hover{ background-color: black;}
+#btn1:hover{background-color: darkgreen ;}
+
+#ic {
+    background-color: #30B868;
+    width: 8px;
+    height: 8px;
+border-radius: 50%;
+box-shadow: 0 0 0 4px
+rgba(28, 121, 4, 0.18);}
+
+#hmm{display: flex;
+align-items: center;
+gap: 10px;}

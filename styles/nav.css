@@ -1,0 +1,50 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+.ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 32px;
+}
+.ul li{
+    list-style: none;
+}
+.ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.btn {
+    border: none;
+    color: white;
+    background-color:#30B868;
+    padding: 12px 16px;
+    border-radius: 4px;
+    width: 164px;
+    height: 44px;
+    font-size: 16px;
+    font-weight:600;
+    box-shadow: none;
+}
+nav{ width: 85%;
+    max-width: 1360;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+padding: 16px 0px;
+
+}
+header{
+    background-color: #FFFFFF ;
+}
